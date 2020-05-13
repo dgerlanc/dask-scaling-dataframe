@@ -2,7 +2,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dgerlanc/dask-scaling-dataframe/master)
 
-This repository contains the slides, exercises, and answers for *Python and Dask: Scaling the Dataframe*. The goal of this tutorial is to teach you, someone with experience programming in Python, most of the features available in Pandas. The material from this course has been presented at conferences including ODSC and Battlefin Discovery Data and online through the O'Reilly platform.
+This repository contains the slides, exercises, and answers for *Python and Dask: Scaling the Dataframe*. The goal of this tutorial is to teach you, someone with experience working with tabular data in pandas, to scale to problems that do not fit in memory on a single machine.
 
 ## Why this course exists
 
@@ -35,18 +35,6 @@ If you have a stable Internet connection and the free Binder service isn't under
 Binder badge (make sure you open in a new window). Keep in mind that Binder aggresively shuts down idle instances so you'll need to refresh the link if you're idle for too long.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dgerlanc/dask-scaling-dataframe/master)
-
-### Prerendered Notebooks
-
-You may view the HTML versions of slides and the answers directly in your browser on Github
-though you will not be able to run them interactively:
-
-* [Lesson 1 - Series](https://github.com/dgerlanc/dask-scaling-dataframe/blob/master/01-intro-to-pandas-part-1-slides.ipynb)
-* [Lesson 2 - DataFrames](https://github.com/dgerlanc/dask-scaling-dataframe/blob/master/02-intro-to-pandas-part-2-slides.ipynb)
-* [Lesson 3 - Split, Apply, Combine](https://github.com/dgerlanc/dask-scaling-dataframe/blob/master/03-group-apply-slides.ipynb)
-* [Lesson 4 - Time Series](https://github.com/dgerlanc/dask-scaling-dataframe/blob/master/04-time-series-slides.ipynb)
-* [Lesson 5 - Merge and Concat](https://github.com/dgerlanc/dask-scaling-dataframe/blob/master/05-merge-pivot-slides.ipynb)
-* [Lesson 6 - Advanced Merge and Reshape](https://github.com/dgerlanc/dask-scaling-dataframe/blob/master/06-advanced-merge-reshape-slides.ipynb)
 
 ### Local Installation
 
