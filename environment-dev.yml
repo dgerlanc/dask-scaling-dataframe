@@ -1,0 +1,20 @@
+name: pydask-dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.*
+  - dask
+  - distributed
+  - xarray
+  - bokeh
+  - jupyterlab
+  - python-graphviz
+  - pyarrow
+  - fastparquet
+  - jupyter_contrib_nbextensions
+  - rise
+  - isort
+#   - jupyter-server-proxy
+#  - dask_labextension
+#  - nodejs

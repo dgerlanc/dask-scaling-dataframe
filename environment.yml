@@ -1,0 +1,11 @@
+name: pydask
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.*
+  - dask
+  - distributed
+  - bokeh
+  - python-graphviz
+  - pyarrow
