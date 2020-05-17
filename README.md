@@ -62,25 +62,25 @@ To complete the course exercises, you must use `conda` to install the
 dependencies specified in the `environment.yml` file in the repository:
 
 ```
-$ conda env create -f environment.yml
+$ conda env create -f binder/environment.yml
 ```
 
-This will create an `conda` environment called `progwd` which may be
+This will create an `conda` environment called `scale-df` which may be
 "activated" with the following commands:
 
-* Windows: `activate progwd`
-* Linux and Mac: `conda activate progwd` or `source activate progwd`
+* Linux and Mac: `conda activate scale-df`
+* Windows: `activate scale-df`
 
 Once you've activated the environment your prompt will probably
 look something like this:
 
 ```
-(progwd) $
+(scale-df) $
 ```
 
 The entire course is designed to use `jupyter` notebooks. Start the
 notebook server to get started:
 
 ```
-(progwd) $ jupyter notebook
+(scale-df) $ jupyter notebook
 ```

@@ -1,20 +1,20 @@
-name: pydask-dev
+name: scale-df-dev
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.7.*
+  - python=3.8.*
   - dask
-  - distributed
-  - xarray
   - bokeh
-  - jupyterlab
   - python-graphviz
   - pyarrow
-  - fastparquet
   - jupyter_contrib_nbextensions
   - rise
   - isort
+  - notebook
+  - ipywidgets
+# - jupyterlab
+#    - xarray
 #   - jupyter-server-proxy
 #  - dask_labextension
 #  - nodejs
