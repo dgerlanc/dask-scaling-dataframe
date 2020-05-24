@@ -1,6 +1,6 @@
 # Python and Dask: Scaling the DataFrame
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dgerlanc/dask-scaling-dataframe/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dgerlanc/dask-scaling-dataframe/master?urlpath=lab)
 
 This repository contains the slides, exercises, and answers for *Python and Dask: Scaling the Dataframe*. The goal of this tutorial is to teach you, someone with experience working with tabular data in pandas, to scale to problems that do not fit in memory on a single machine.
 
@@ -34,7 +34,7 @@ No statistics background is required.
 If you have a stable Internet connection and the free Binder service isn't under too much load, the easiest way to interactively run the slides and try the exercises is to click the
 Binder badge (make sure you open in a new window). Keep in mind that Binder aggresively shuts down idle instances so you'll need to refresh the link if you're idle for too long.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dgerlanc/dask-scaling-dataframe/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dgerlanc/dask-scaling-dataframe/master?urlpath=lab)
 
 ### Local Installation
 
@@ -53,7 +53,7 @@ Download the latest version of the course materials
 Alternatively, you may clone the course repository using `git`:
 
 ```
-$ git clone https://github.com/dgerlanc/dask-scaling-dataframe.git
+$ git clone --depth 1 https://github.com/dgerlanc/dask-scaling-dataframe.git
 ```
 
 The remainder of the installation requires that you use the command line.
@@ -62,25 +62,25 @@ To complete the course exercises, you must use `conda` to install the
 dependencies specified in the `environment.yml` file in the repository:
 
 ```
-$ conda env create -f binder/environment.yml
+$ conda env create -f environment.yml
 ```
 
-This will create an `conda` environment called `scale-df` which may be
+This will create an `conda` environment called `dask-scaling-the-dataframe` which may be
 "activated" with the following commands:
 
-* Linux and Mac: `conda activate scale-df`
-* Windows: `activate scale-df`
+* Linux and Mac: `conda activate dask-scaling-the-dataframe`
+* Windows: `activate dask-scaling-the-dataframe`
 
 Once you've activated the environment your prompt will probably
 look something like this:
 
 ```
-(scale-df) $
+(dask-scaling-the-dataframe) $
 ```
 
 The entire course is designed to use `jupyter` notebooks. Start the
 notebook server to get started:
 
 ```
-(scale-df) $ jupyter notebook
+(dask-scaling-the-dataframe) $ jupyter lab
 ```

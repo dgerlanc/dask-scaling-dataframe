@@ -1,3 +1,4 @@
 *
 !.gitignore
-!*/taxi-data/*
+!taxi-small/**
+!payroll-small/**

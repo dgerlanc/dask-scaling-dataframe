@@ -7,6 +7,13 @@ dependencies:
   - bokeh
   - python-graphviz
   - pyarrow
+  - rise
+  - isort
+  - notebook
   - ipywidgets
+  - jupyterlab
+  - nodejs
+  - dask_labextension
   - matplotlib
   - seaborn
+  - snakeviz
