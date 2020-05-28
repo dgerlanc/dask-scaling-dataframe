@@ -36,6 +36,15 @@ Binder badge (make sure you open in a new window). Keep in mind that Binder aggr
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dgerlanc/dask-scaling-dataframe/master?urlpath=lab)
 
+### Prerendered Notebooks
+
+You may view the HTML versions of slides and the answers directly in your browser on Github though you will not be able to run them interactively:
+
+* [Lesson 1 - Introduction to Dask](https://github.com/dgerlanc/dask-scaling-dataframe/blob/master/01-10-minutes-to-dask.ipynb)
+* [Lesson 2 - Dask DataFrames](https://github.com/dgerlanc/dask-scaling-dataframe/blob/master/02-dask-dataframe.ipynb)
+* [Lesson 3 - Profiling with the Dask Dashboard](https://github.com/dgerlanc/dask-scaling-dataframe/blob/master/03-dask-performance.ipynb)
+* [Lesson 4 - Dask Schedulers](https://github.com/dgerlanc/dask-scaling-dataframe/blob/master/02a-schedulers.ipynb)
+
 ### Local Installation
 
 If you're taking the course, want to follow along with the slides and do the
@@ -74,13 +83,30 @@ This will create an `conda` environment called `dask-scaling-the-dataframe` whic
 Once you've activated the environment your prompt will probably
 look something like this:
 
-```
+```sh
 (dask-scaling-the-dataframe) $
 ```
+
+We won't show the environment name to the left of the prompt for subsequent
+shell commands.
 
 The entire course is designed to use `jupyter` notebooks. Start the
 notebook server to get started:
 
+```sh
+$ jupyter lab
 ```
-(dask-scaling-the-dataframe) $ jupyter lab
+
+__Optional__
+
+The Dask JupyterLab extension allows you to view the distributed scheduler
+dashboard from within JupyterLab. It is _not_ required to complete the course,
+though you may find it useful.
+
+If you want to enable the Dask extension for JupyterLab run the following before
+ you start JupyterLab:
+
+```sh
+$ jupyter labextension install dask-labextension
+$ jupyter serverextension enable dask_labextension
 ```
